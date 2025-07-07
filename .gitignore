@@ -35,3 +35,20 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore backend files created when bootstrapping a new project
+backend_output.json
+backend.hcl
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.sw?
+*.bak
+*.tmp
+*.DS_Store
+*.iml
+*.log
